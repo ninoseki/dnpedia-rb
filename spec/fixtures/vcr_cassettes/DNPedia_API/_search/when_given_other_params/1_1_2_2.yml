@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://dnpedia.com/tlds/ajax.php?_search=false&cmd=search&columns=id,name,zoneid,length,idn,thedate,&days=7&ecf=name&ecv=~%25docomo%25&mode=deleted&nd=1569842920216&page=1&rows=200&sidx=length&sord=asc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip
+      Referer:
+      - https://dnpedia.com/tlds/search.php
+      X-Requested-With:
+      - XMLHttpRequest
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - dnpedia.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Sep 2019 11:50:51 GMT
+      Server:
+      - Apache/2.4.25 (Debian)
+      Set-Cookie:
+      - PHPSESSID=rv4vo4ff06addnj609cs6i8762; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '342'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA63U3W6DIBQA4HfhWhNAoNBXWXbBKqGuCg3S9S99953+rDKSusV4d0T5zvGEwxlttTVoSQoUfdTtLQpm5UPdQ8wK1EcdIlriArVN10BEMcTB7+H92xk1NVoyqSrCKSw73QGGar/ynd+51q82qEAn78z1OwSr8NgaZ+MadFrAdnez49rUOl73UkxUiVVJOboUD18RRpUkTz+YL9PqexbTaQsFm/A6ESWjicSvRIoo/kzUd7HsjvdEk38k9VlVScyyRvXQqnqEHy9fJjwngjOe8druUrxvYP+gq//jFVVMZrh1Hyl+OJ6m2yqzt8bOZfP8cIamn8dmjAx1P47KdjeLzSol8p7oeEjtvQ+byfgib4p1n7PggldYDMfwZ4JKGKfJU6QSf6EYliIrnnJQXut4TK9woktGhKLDHWDgfvn/XfNnnvfLN2lZCbp1BQAA
+    http_version: 
+  recorded_at: Mon, 30 Sep 2019 11:50:56 GMT
+recorded_with: VCR 5.0.0
